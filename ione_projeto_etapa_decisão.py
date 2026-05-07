@@ -1,6 +1,6 @@
 # PROGRAMA PARA CALCULAR NOTA E DECIDIR APROVADO OU REPROVADO
 
-#ETAPA 2 - ESTRUTURA SEQUENCIAL
+#ETAPA 3 - ESTRUTURA DE DECISÃO
 
 # Início do programa com nome que definimos (cabeçalho).
 print("=== HISTORIX ===")
