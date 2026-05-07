@@ -1,6 +1,6 @@
 # PROGRAMA PARA CALCULAR NOTAS DE MÚLTIPLAS DISCIPLINAS
 
-#ETAPA 2 - ESTRUTURA SEQUENCIAL
+#ETAPA 4 - ESTRUTURA DE REPETIÇÃO 
 
 # Início do programa com nome que definimos (cabeçalho).
 print("=== HISTORIX ===")
@@ -14,7 +14,7 @@ quantidade = int(input("Quantas disciplinas deseja cadastrar? "))
 # Repetição para múltiplas disciplinas
 for i in range(quantidade):
 
-    print("\n=== DISCIPLINA", i + 1, "===")
+    print("=== DISCIPLINA", i + 1, "===")#Vai começar a partir do 1.
 
     # Nome da disciplina
     disciplina = input("Nome da disciplina: ")
@@ -64,7 +64,7 @@ for i in range(quantidade):
 
     # --- Exibição de resultados ---
 
-    print("\n=== RESULTADO ===")
+    print("=== RESULTADO ===")
 
     # Exibe nome do aluno.
     print("Aluno:", nome)
@@ -77,8 +77,7 @@ for i in range(quantidade):
 
     # Exibe faltas
     print("Faltas:", faltas)
-
-    #ETAPA 3 ESTRUTURA DE DECISÃO
+    
 
     # --- Lógica de situação ---
 
@@ -119,5 +118,6 @@ for i in range(quantidade):
     # Se passar nos dois critérios
     else:
         print("Situação(final): Parabéns! Você está APROVADO neste bimestre.")
+
 
 
